@@ -56,21 +56,6 @@ There are plenty of good tuts online for installing, creating, and migrating wit
 
 ==
 
-## [cPanel](http://www.wpbeginner.com/glossary/cpanel/)
-
-- web based hosting control panel provided by many hosting providers to website owners allowing them to manage their websites from a web based interface.
-- With this, users can control their portion of the Unix server.
-- The tools provided are designed to simplify running and controlling a website. It uses a tiered structure that allows different levels of access. 
-- Administrators and end users can control the different aspects of the server and the website directly through their browser. 
-- Generally accessed using `https` on `port 2083` or simply by adding `/cpanel` to the end of the host name.
-
-==
-
-## FTP tool
-- [**Cyberduck**](https://cyberduck.io/?l=en): With an easy to use interface, connect to FTP (File Transfer Protocol), SFTP (SSH Secure File Transfer), WebDAV (Web-based Distributed Authoring and Versioning), Amazon S3, Google Cloud Storage and Rackspace Cloud Files.
-
-==
-
 ## [Moving WordPress](http://codex.wordpress.org/Moving_WordPress)
 ## [Moving a Root install to its own directory](http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory#Using_a_pre-existing_subdirectory_install)
 
