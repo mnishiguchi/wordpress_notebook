@@ -1,6 +1,9 @@
 # Moving a WP site to a new web host
 
-[A Step By Step Guide to Migrating Your WordPress Website To A New Web Host](http://www.wpexplorer.com/migrating-wordpress-website/)
+- [A Step By Step Guide to Migrating Your WordPress Website To A New Web Host](http://www.wpexplorer.com/migrating-wordpress-website/)
+- [Migrating WordPress Across Hosts, Servers and URLs](http://code.tutsplus.com/tutorials/migrating-wordpress-across-hosts-servers-and-urls--wp-20104)
+- [Migrating A WordPress Site – Step By Step](http://wordpress.mcdspot.com/2012/08/22/migrating-a-wordpress-site-step-by-step/)
+- [HOW TO MIGRATE WORDPRESS TO A NEW HOST](https://www.godaddy.com/garage/webpro/wordpress/how-to-migrate-wordpress-to-a-new-host/)
 
 ## Manual method
 
@@ -94,4 +97,10 @@
 
 ==
 
+## Troubleshooting
 [Why is my database import losing text widget data?](http://wordpress.stackexchange.com/questions/9076/why-is-my-database-import-losing-text-widget-data)
+
+[The requested URL /index.php was not found on this server](https://wordpress.org/support/topic/the-requested-url-indexphp-was-not-found-on-this-server-3)
+
+[Changing The Site URL](http://codex.wordpress.org/Changing_The_Site_URL)
+

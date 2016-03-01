@@ -1,10 +1,13 @@
 # WordPress notebook
+
 - WordPress is a free and open-source content management system (CMS)
 - based on PHP and MySQL
 - installed on a web server
 - Can have a local computer configured to act as its own web server hosting Wordpress for single-user testing or learning purposes
 - Features include a plugin architecture and a template system
 - The most popular blogging system in use on the Web, at more than 60 million websites
+
+==
 
 ## Themes
 
@@ -59,4 +62,4 @@ There are plenty of good tuts online for installing, creating, and migrating wit
 ## [Moving WordPress](http://codex.wordpress.org/Moving_WordPress)
 ## [Moving a Root install to its own directory](http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory#Using_a_pre-existing_subdirectory_install)
 
-
+==
