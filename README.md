@@ -63,3 +63,38 @@ There are plenty of good tuts online for installing, creating, and migrating wit
 ## [Moving a Root install to its own directory](http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory#Using_a_pre-existing_subdirectory_install)
 
 ==
+
+## Featured image
+https://en.support.wordpress.com/featured-images/
+
+==
+
+## get the current URL
+- https://wordpress.org/support/topic/how-to-get-the-url-of-the-page-you-are-on-with-php
+
+```php
+echo "http://" . $_SERVER['HTTP_HOST']  . $_SERVER['REQUEST_URI'];
+```
+
+==
+
+## category title
+
+### Displaying with the "Category:<category>" format
+```
+the_archive_title( '<h2 class="page-title">', '</h2>' );
+```
+
+### Displaying only the title
+```
+<h2 class="page-title"><?php single_cat_title(); ?></h2>
+```
+
+==
+
+## [Function to check, if older/newer posts exist](https://wordpress.org/support/topic/function-to-check-if-oldernewer-posts-exist)
+
+```php
+if( get_next_posts_link() ) { do it }
+if( get_previous_posts_link() ) { do it }
+```
