@@ -98,3 +98,51 @@ the_archive_title( '<h2 class="page-title">', '</h2>' );
 if( get_next_posts_link() ) { do it }
 if( get_previous_posts_link() ) { do it }
 ```
+
+==
+
+## Troubleshooting
+- [images link broken](https://wordpress.org/support/topic/images-broken-on-all-but-home-page)
+
+```
+Reference images with an absolute path instead of a relative path:
+
+I.e. in the widget on the top left:
+
+<img src="/wp-content/uploads/orvis_166x95.gif"
+
+or
+
+<img src="http://www.yoursite.com/wp-content/uploads/orvis_166x95.gif"
+
+instead of
+
+<img src="wp-content/uploads/orvis_166x95.gif"
+```
+
+== 
+
+## [Display most recent posts on static homepage](https://wordpress.org/support/topic/display-most-recent-posts-on-static-homepage-how)
+
+```
+<?php
+
+global $post;
+
+$myposts = get_posts('numberposts=5&category=1');
+
+foreach($myposts as $post) :
+
+?>
+
+<?php the_title(); ?>
+
+<?php the_content(); ?>
+
+<?php endforeach; ?>
+```
+
+==
+
+## [Get `<?php the_content(); ?>` as a string or turn it into a string](http://stackoverflow.com/questions/4405395/php-how-do-i-get-php-the-content-as-a-string-or-turn-it-into-a-strin)
+
